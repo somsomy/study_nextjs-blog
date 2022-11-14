@@ -8,7 +8,7 @@ export async function getServerSideProps() {
   }
 }
 
-export default function Home({time}) {
+export default function Home({ time }) {
   return (
     <div className="container">
       <Head>
